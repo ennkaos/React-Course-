@@ -1,16 +1,10 @@
-
-import IntroductionComponent1 from './introduction_components/IntroductionComponent-1'
-
-
-
+import IntroductionComponent1 from './introduction_components/IntroductionComponent-1';
 
 function IntroductionComponent() {
   return (
-    <div>
+    <div className="bg-dark text-light">
       <h2>Let's get started!</h2>
-      <IntroductionComponent1>     
-      </IntroductionComponent1>
-   
+      <IntroductionComponent1></IntroductionComponent1>
     </div>
   );
 }
